@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+		"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>jQuery.humane_date.js: Test</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.js"></script>
+	<script type="text/javascript" src="jquery.humane_date.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('.created_at').humane_dates();
+		});
+	</script>
+</head>
+<body>
+<ul>
+	<li>I started loving you <span class="created_at">2010-04-20T04:52:07Z</span></li>
+	<li>I started hating you <span class="created_at">2010-02-20T04:52:07Z</span></li>
+</ul>
+</body>
+</html>
+

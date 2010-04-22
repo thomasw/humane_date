@@ -1,0 +1,16 @@
+jQuery humane_date Plugin
+
+Base version courtesy of http://www.zachleat.com/web/2008/03/23/yet-another-pretty-date-javascript/ and
+
+I've modified Zach Leatherman's version to use $(this).data(key, value) to store the original time rather than the title attribute.
+
+What: Takes element with ISO8601 date formats (YYYY-MM-DDTHH:MM:SSZ  (in UTC) where T and Z are literals) and converts them to human readable time since strings.
+
+
+How:
+<ul>
+	<li>I started loving you <span class="created_at">2010-04-20T04:52:07Z</span></li>
+	<li>I started hating you <span class="created_at">2010-02-20T04:52:07Z</span></li>
+</ul>
+
+$('.created_at').humane_dates();
