@@ -1,11 +1,13 @@
 jQuery humane_date Plugin
 
-Base version courtesy of http://www.zachleat.com/web/2008/03/23/yet-another-pretty-date-javascript/ and
+Base version courtesy of these time formatting champions:
+Zach Leatherman: http://www.zachleat.com/web/2008/03/23/yet-another-pretty-date-javascript/
+John Resig: http://ejohn.org/blog/javascript-pretty-date
+Dean Landolt: http://ejohn.org/blog/javascript-pretty-date/#comment-297458
 
 I've modified Zach Leatherman's version to use $(this).data(key, value) to store the original time rather than the title attribute.
 
 What: Takes element with ISO8601 date formats (YYYY-MM-DDTHH:MM:SSZ  (in UTC) where T and Z are literals) and converts them to human readable time since strings.
-
 
 How:
 <ul>
